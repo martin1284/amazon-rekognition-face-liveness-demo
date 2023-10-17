@@ -59,7 +59,7 @@ function App() {
           height="600px"
           width="740px"
           maxWidth="740px"
-        >
+        > 
           {faceLivenessAnalysis && faceLivenessAnalysis.Confidence ? (
             <ReferenceImage faceLivenessAnalysis={faceLivenessAnalysis} tryagain={tryagain}></ReferenceImage>
           ) :
